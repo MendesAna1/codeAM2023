@@ -1,0 +1,73 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  max-width: 100%;/*este y el que sigue es para que la página se achique o agrande segun se modifique*/
+  height: auto;
+}
+
+body {
+
+  background-color: #ecf0f1;
+  font-family: "papyrus";
+}
+
+.libros{
+  width: 50%; /*para que quede centrado*/
+  margin: 0px auto;
+  text-align: center;
+  font-family: "Century Gothic";
+}
+
+/*menú nuevo*/
+
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 50px; 
+  list-style: none;
+  background-color: #EDBB99;
+
+}
+
+.menu li { /*opción del menú*/
+  width: 350px; /*distancia entre inicio y contacto*/
+  height: 30px;
+  text-align: center;
+
+}
+.menu li a { /*contenido del menú*/
+  font-size: 19px;
+  color: #000; /*color menú*/
+
+}
+
+                  
+footer{ 
+    background: #EDBB99;
+    padding: 20px;
+    text-align: center;
+    font-family: "Calibri";
+
+}
+
+.contenedor-footer-content{ /*contenedor footer*/
+    justify-content: center;
+    align-items:center;
+ 
+}
+
+.contact-us{ /* copyright */
+    /*font-size: 13px;*/
+    width: 100%;
+    color: #000;
+    text-align: center; 
+     /*tamaño el footer*/ 
+    padding-top:10px;
+    padding-bottom:10px; 
+}
