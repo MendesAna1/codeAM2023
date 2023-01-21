@@ -34,3 +34,8 @@
 .ti-arrow-up:before {
 	content: "\e627";
 }
+
+/*logo menu*/
+.ti-menu:before {
+	content: "\e68e";
+}
